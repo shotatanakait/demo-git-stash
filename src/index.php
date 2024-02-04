@@ -12,6 +12,13 @@
         <h1 style="margin:0px;">demo git revert</h1>
         <hr>
         <?php
+            // feature3
+            function echoString3($str) {
+                echo $str . '<br>';
+            }
+            echoString3('hello, from function3.');
+        ?>
+        <?php
             echo 'Hello world.';
         ?>
     </div>
